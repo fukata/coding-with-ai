@@ -8,9 +8,16 @@
 
     <resource-bundle>messages.MyBundle</resource-bundle>
 
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="dev.fukata.codingwithai.SampleToolWindow"
+                    anchor="right"
+                    icon="AllIcons.Toolwindows.ToolWindowMessages"
+                    factoryClass="dev.fukata.codingwithai.SampleToolWindowFactory"/>
+    </extensions>
+
     <actions>
-        <action id="dev.fukata.codingwithai.actions.SampleAction"
-                class="dev.fukata.codingwithai.actions.SampleAction" text="Sample Action"
+        <action id="dev.fukata.codingwithai.SampleAction"
+                class="dev.fukata.codingwithai.SampleAction" text="Sample Action"
                 description="This is sample action">
             <add-to-group group-id="EditorPopupMenu" anchor="last"/>
         </action>
