@@ -1,4 +1,4 @@
-package com.github.fukata.codingwithai
+package dev.fukata.codingwithai
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls
